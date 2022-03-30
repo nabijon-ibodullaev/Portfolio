@@ -7,27 +7,25 @@
 .btn-download:hover {
   background-color: #3f3d56;
   color: #fff;
-  transition: background-color ease-out .7s;
+  transition: background-color ease-out 0.7s;
 }
 
-h1 , small{
+h1,
+small {
   color: #3f3d56;
 }
 @media (max-width: 350px) {
   h1 {
     font-size: 38px;
-
   }
 }
 @media (max-width: 340px) {
-.btn-download {
-  font-size: 13px;
-}
-
+  .btn-download {
+    font-size: 13px;
+  }
 }
 @media (max-width: 300px) {
-.btn-download {
-  font-size: 11px;
-}
-
+  .btn-download {
+    font-size: 11px;
+  }
 }

@@ -2,7 +2,7 @@ nav {
   font-family: "Maven Pro", sans-serif !important;
   padding: 20px 10px;
 }
-.navbar-brand{
+.navbar-brand {
   font-size: 25px;
   color: #f9a826;
   font-weight: 600;
@@ -28,7 +28,8 @@ nav {
   border: none;
 }
 
-.nav-link:focus , .nav-link:hover{
+.nav-link:focus,
+.nav-link:hover {
   background: #f9a826;
   color: #fff !important;
   border-radius: 10px;
@@ -48,13 +49,13 @@ nav {
   outline: 0;
   box-shadow: none !important;
 }
-@media (max-width: 991px)  {
+@media (max-width: 991px) {
   .navbar-nav .nav-item {
     padding-left: 80px !important;
   }
 }
 @media (max-width: 500px) {
-  nav{
+  nav {
     padding: 15px 5px;
   }
   .navbar-brand {
@@ -67,7 +68,7 @@ nav {
   }
   .nav-link:focus {
     background: none;
-    color: #43464a!important;
+    color: #43464a !important;
     border: none;
     transition: background-color ease-out 0.8s;
   }
@@ -76,7 +77,7 @@ nav {
   }
 }
 @media (max-width: 350px) {
-  nav{
+  nav {
     padding: 10px 5px;
   }
   .brand-image {
@@ -90,8 +91,8 @@ nav {
   .navbar-nav .nav-item {
     padding: 5px 15px;
   }
- .padding-check {
-  padding-left: 50px;
+  .padding-check {
+    padding-left: 50px;
   }
   .navbar-nav .nav-item .nav-link {
     color: #43464a;

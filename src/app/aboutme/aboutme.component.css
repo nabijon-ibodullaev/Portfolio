@@ -4,7 +4,8 @@
 video {
   border-radius: 30px;
 }
-h2 , small{
+h2,
+small {
   color: #3f3d56;
 }
 ul {
@@ -19,7 +20,9 @@ ul li::before {
   font-size: 15px;
   line-height: 25px;
 }
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: inherit;
 }
 .hover:hover {

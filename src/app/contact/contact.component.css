@@ -1,15 +1,19 @@
-.container
-{
+.container {
   font-family: "Maven Pro", sans-serif !important;
 }
-h1, h2, h3,h4 , h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: #3f3d56;
 }
 .form-control:focus {
   box-shadow: none;
   border-color: #3f3d56;
 }
-input::placeholder, textarea::placeholder{
+input::placeholder,
+textarea::placeholder {
   color: #3f3d56;
   font-weight: bolder;
   opacity: 0.7;
@@ -20,7 +24,8 @@ input {
 .btn-send {
   background-color: #f9a826;
 }
-.btn-send:hover , .btn-send:focus {
+.btn-send:hover,
+.btn-send:focus {
   background-color: #3f3d56;
   transition: background-color ease-out 0.7s;
 }
