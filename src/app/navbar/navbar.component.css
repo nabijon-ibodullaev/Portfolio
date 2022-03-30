@@ -1,0 +1,104 @@
+nav {
+  font-family: "Maven Pro", sans-serif !important;
+  padding: 20px 10px;
+}
+.navbar-brand{
+  font-size: 25px;
+  color: #f9a826;
+  font-weight: 600;
+  padding-left: 80px;
+}
+.cursor {
+  cursor: pointer;
+  padding: 10px;
+  background: #3f3d56;
+  color: #fff;
+}
+.navbar-nav .nav-item {
+  padding: 5px 10px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #3f3d56;
+  font-weight: 600;
+  font-size: 16px;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none !important;
+  border: none;
+}
+
+.nav-link:focus , .nav-link:hover{
+  background: #f9a826;
+  color: #fff !important;
+  border-radius: 10px;
+  border: none;
+  transition: background-color ease-out 0.8s;
+}
+.form-check-input:checked {
+  background-color: #f9a826;
+  border-color: #f9a826;
+  box-shadow: none;
+}
+.form-check-input {
+  box-shadow: none;
+}
+.form-check-input:focus {
+  border-color: #3f3d56 !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+@media (max-width: 991px)  {
+  .navbar-nav .nav-item {
+    padding-left: 80px !important;
+  }
+}
+@media (max-width: 500px) {
+  nav{
+    padding: 15px 5px;
+  }
+  .navbar-brand {
+    padding-left: 20px;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none !important;
+    border: none;
+  }
+  .nav-link:focus {
+    background: none;
+    color: #43464a!important;
+    border: none;
+    transition: background-color ease-out 0.8s;
+  }
+  .navbar-nav .nav-item {
+    padding-left: 30px !important;
+  }
+}
+@media (max-width: 350px) {
+  nav{
+    padding: 10px 5px;
+  }
+  .brand-image {
+    height: 30px;
+    width: 30px;
+  }
+  .navbar-brand {
+    padding-left: 8px;
+    font-size: 20px;
+  }
+  .navbar-nav .nav-item {
+    padding: 5px 15px;
+  }
+ .padding-check {
+  padding-left: 50px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: #43464a;
+    font-weight: 800;
+    font-size: 12px;
+  }
+  .navbar-nav .nav-item {
+    padding-left: 15px !important;
+  }
+}

@@ -1,0 +1,58 @@
+.container {
+  font-family: "Maven Pro", sans-serif !important;
+}
+h2 {
+  color: #3f3d56;
+}
+.box {
+  padding: 50px 15px;
+  height: auto;
+  color: #3f3d56;
+  border-radius: 10px;
+}
+.box-grand {
+  padding: 10px;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+.box h6{
+  font-weight: bold;
+  padding: 10px 15px;
+}
+.box-parent {
+
+}
+.live:hover {
+  background-color: #3f3d56;
+  border-color: #3f3d56;
+  transition: all  ease-in-out 0.8s;
+}
+.live:focus {
+  box-shadow: none;
+}
+.image:hover{
+  transform: scale(1.01);
+  overflow: hidden;
+  transition: all ease-in-out 1s;
+  opacity: 0.8;
+
+}
+.btn-y{
+  background-color: #f9a826;
+  font-size: 12px;
+}
+.btn-g {
+  background-color: #3f3d56;
+  font-size: 12px;
+}
+.btn-g:hover {
+  background-color: #f9a826;
+  border-color: #f9a826;
+  font-size: 12px;
+}
+
+@media (max-width: 400px)
+{
+  .box {
+    width: 100%;
+  }
+}

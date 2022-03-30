@@ -1,0 +1,33 @@
+.container {
+  font-family: "Maven Pro", sans-serif !important;
+}
+.btn-download {
+  background-color: #f9a826;
+}
+.btn-download:hover {
+  background-color: #3f3d56;
+  color: #fff;
+  transition: background-color ease-out .7s;
+}
+
+h1 , small{
+  color: #3f3d56;
+}
+@media (max-width: 350px) {
+  h1 {
+    font-size: 38px;
+
+  }
+}
+@media (max-width: 340px) {
+.btn-download {
+  font-size: 13px;
+}
+
+}
+@media (max-width: 300px) {
+.btn-download {
+  font-size: 11px;
+}
+
+}

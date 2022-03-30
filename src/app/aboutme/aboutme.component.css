@@ -1,0 +1,27 @@
+.container {
+  font-family: "Maven Pro", sans-serif !important;
+}
+video {
+  border-radius: 30px;
+}
+h2 , small{
+  color: #3f3d56;
+}
+ul {
+  list-style-type: none;
+  position: relative;
+}
+ul li::before {
+  content: "▹";
+  position: absolute;
+  left: 10px;
+  color: #f9a826;
+  font-size: 15px;
+  line-height: 25px;
+}
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+.hover:hover {
+  color: #f9a826 !important;
+}

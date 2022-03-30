@@ -1,0 +1,25 @@
+<div id="experiments" class="container">
+  <div class="row">
+    <h2 class="text-center fw-bold text-uppercase">Experiments</h2>
+    <div *ngFor="let project of experiments"
+         class="col-lg-3 col-md-4 col-sm-6 mt-3 my-1 box d-flex align-items-stretch" data-aos="zoom-in"
+         data-aos-delay="300">
+     <div class="box-grand w-100" >
+       <img [src]="project.img" class="img-fluid image" alt="">
+       <div class="box-parent">
+         <h6 class="">{{project.title}}</h6>
+
+         <div class="text-center box-child">
+           <div class="d-flex align-items-center justify-content-center">
+           <button class="btn btn-y btn-sm btn-warning text-white fw-bolder live mx-1">
+             <i class="fas fa-eye"></i>
+             Live Demo</button>
+
+           <button class="btn btn-g btn-sm text-white fw-bolder live"> <i class="fab fa-github"></i> Github</button>
+         </div>
+       </div>
+     </div>
+
+    </div>
+  </div>
+</div>

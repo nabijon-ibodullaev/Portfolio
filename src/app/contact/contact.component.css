@@ -1,0 +1,40 @@
+.container
+{
+  font-family: "Maven Pro", sans-serif !important;
+}
+h1, h2, h3,h4 , h5 {
+  color: #3f3d56;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #3f3d56;
+}
+input::placeholder, textarea::placeholder{
+  color: #3f3d56;
+  font-weight: bolder;
+  opacity: 0.7;
+}
+input {
+  height: 50px;
+}
+.btn-send {
+  background-color: #f9a826;
+}
+.btn-send:hover , .btn-send:focus {
+  background-color: #3f3d56;
+  transition: background-color ease-out 0.7s;
+}
+@media (max-width: 400px) {
+  .fname {
+    margin-top: 10px !important;
+  }
+  .form {
+    margin-top: 15px;
+  }
+  .btn-send {
+    width: 100%;
+  }
+  .btn-send:focus {
+    box-shadow: none;
+  }
+}
